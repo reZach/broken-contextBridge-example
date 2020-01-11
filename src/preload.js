@@ -4,7 +4,8 @@ const {
 } = require("electron");
 
 console.log("In preload.js");
-console.log(ipcRenderer);
+ipcRenderer.on("event1", (a, b) => {});
+console.log(`Added event successfully in preload? ${Object.keys(ipcRenderer._events).length === 1 ? "Yes" : "No"}`);
 
 contextBridge.exposeInMainWorld(
     "electron", {

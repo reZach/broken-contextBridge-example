@@ -30,6 +30,8 @@ async function createWindow() {
     // Load app
     win.loadFile(path.join(__dirname, "../src/index.html"));
 
+    win.webContents.openDevTools();
+
     // Emitted when the window is closed.
     win.on("closed", () => {
         // Dereference the window object, usually you would store windows
