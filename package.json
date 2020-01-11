@@ -1,0 +1,23 @@
+{
+  "name": "broken-preload-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reZach/broken-preload-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reZach/broken-preload-example/issues"
+  },
+  "homepage": "https://github.com/reZach/broken-preload-example#readme",
+  "dependencies": {
+    "electron": "^7.1.8"
+  }
+}
