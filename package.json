@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/reZach/broken-preload-example#readme",
   "dependencies": {
-    "electron": "^7.1.8"
+    "electron": "^11.5.0"
   }
 }
